@@ -124,7 +124,7 @@ input {
     border-radius: 70px;
     width: 40px;
     height: 40px;
-    margin-left: 9px;
+    margin-left: 22px;
     margin-top: 12px;
 }
 .point {
@@ -140,4 +140,134 @@ input {
     color:gray;
     margin-left: 20px;
     margin-top: 20px;
+}
+.bottom_text1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:gray;
+    font-size: 20px;
+}
+.bottom_text2{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:gray;
+    font-size: 20px;
+}
+@media screen and (max-width:1200px) {
+    .Design {
+        font-size: 16px;
+       
+    }
+    .grow {
+        font-size: 4px;
+        margin-top: 32px;
+    }
+    .right img {
+        width: 64vw;
+        height: 36vh;
+        margin-left: -3rem;
+        margin-top: 9px;
+    }
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 69%;
+        height: 63%;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+  }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 16px;
+    margin-left: -90px;
+    margin-top: -1px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+.right img {
+    width: 26vw;
+    height: 18vh;
+    margin-left: -40px;
+    margin-top: 22px;
+}
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -13px;
+    margin-top: 80px;
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 48px;
+    
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+    margin-left: 101px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 111px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 73px;
+    color:gray;
+}
+.bottom_text2{
+    margin-left: 94px;
+    color:gray;
+}
+.bottom_text {
+    color: gray;
+    font-size: 20px;
+    margin-left: 42px;
+}
 }
