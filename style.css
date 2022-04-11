@@ -156,11 +156,11 @@ input {
     color: gray;
     font-size: 20px;
 }
-.bottom_text4{
-    margin-left: 15px;
-    margin-top: 20px;
+.bottom_text4 {
+    margin-left: 26px;
     color: gray;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 23px;
 }
 @media screen and (max-width:1200px) {
     .Design {
@@ -289,7 +289,7 @@ input {
     font-size: 16px;
 }
 
-}
+
 .bottom_text4{
     margin-left: 54px;
     color:gray;
