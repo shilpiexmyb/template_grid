@@ -1,13 +1,14 @@
 .body_flex{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    
     margin-left: 50px;
     margin-top: 80px;
 }
 .form_flex{
     display:flex;
     margin-top: 39px;
-
+   
 }
 .images{
     display: flex;
@@ -32,13 +33,13 @@
 }
 .btn {
     background-color: #20bf6b;
-    width: 113px;
-    height: 47px;
-    font-size: 15px;
+    width: 139px;
+    height: 61px;
+    font-size: 20px;
     border: none;
     border-radius: 16px;
-    margin-left: 83px;
-    margin-top: 0px;
+    margin-left: 5rem;
+    margin-top: 2px;
 }
 .btn a{
     text-decoration: none;
@@ -46,8 +47,8 @@
     
 }
 input {
-    width: 228%;
-    height: 83%;
+    width: 236%;
+    height:96%;
     border-radius: 10px;
     border: 1px solid gainsboro;
     box-shadow: 0 0 10px grey;
@@ -63,9 +64,15 @@ input {
       color:black;
       margin-top: -20px;
   }
+  .Design1{
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    margin-top: -48px;
+}
   .grow {
     font-size: 26px;
-    margin-top: 32px;
+   
 }
   .star_flex{
       margin-top: 30px;
@@ -83,14 +90,13 @@ input {
       display: flex;
       font-size: 20px;
   }
-  .underline {
+  span {
     font-size: 27px;
-    margin-left: 8px;
-    margin-left: 10px;
+    margin-left: 2px;
     margin-top: 31px;
     text-decoration: underline dashed;
 }
-.logo {
+.logo1 {
     font-size: 27px;
     margin-left: 8px;
     margin-top: 33px;
@@ -101,10 +107,10 @@ input {
     font-size: 24px;
 }
 .right img {
-    width: 26vw;
-    height: 51vh;
+    width: 58%;
+    height: 69%;
     margin-left: 5rem;
-    margin-top: -1px;
+    margin-top: 5rem;
 }
 .bottom_bar {
     display: flex;
@@ -162,21 +168,39 @@ input {
     font-size: 18px;
     margin-top: 23px;
 }
+.logo img {
+    width: 11vw;
+    height: 10vh;
+    
+    padding-bottom: 67px;
+    margin-left: -20px;
+}
 @media screen and (max-width:1200px) {
+
     .Design {
         font-size: 16px;
-       
-    }
-    .grow {
-        font-size: 4px;
-        margin-top: 32px;
-    }
+        margin-top: 14re;
+        font-weight: bold;
+}
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: 32px;
+    margin-left: 8px;
+    line-height: 15px;
+}
     .right img {
-        width: 64vw;
-        height: 36vh;
-        margin-left: -3rem;
-        margin-top: 9px;
-    }
+    width: 20rem;
+    height: 24rem;
+    margin-left: -13rem;
+    margin-top: -44px;
+}
     .yellow_stars_flex {
         
         display: flex;
@@ -194,18 +218,19 @@ input {
         font-size: 4px;
     }
     
-    .logo {
+    .logo1 {
         font-size: 4px;
         margin-left: 5px;
         margin-top: 31px;
     }
     input {
-        width: 69%;
-        height: 63%;
+        width: 72%;
+        height: 4vh;
         border-radius: 10px;
         border: 1px solid gainsboro;
         box-shadow: 0 0 10px grey;
-  }
+        margin-left: 30px;
+    }
   ::placeholder {
     color:grey;
     font-size: 5px;
@@ -219,8 +244,8 @@ input {
     font-size: 9px;
     border: none;
     border-radius: 10px;
-    margin-left: -90px;
-    margin-top: -1px;
+    margin-left: 4rem;
+    margin-top: 15px;
 }
 .image_1 img {
     width: 24px;
@@ -229,17 +254,13 @@ input {
     border: 1px solid green;
     margin-left: -6px;
 }
-.right img {
-    width: 26vw;
-    height: 18vh;
-    margin-left: -40px;
-    margin-top: 22px;
-}
+
 .body_flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
     margin-left: -13px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .users {
     color: gray;
@@ -295,4 +316,1151 @@ input {
     color:gray;
     font-size: 15px;
 }
+.logo img {
+    width: 10rem;
+    height: 4rem;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+}
+@media screen and (max-width:900px) {
+
+    .Design {
+        font-size: 17px;
+        margin-top: 27rem;
+        font-weight: bold;
+        margin-left: 9rem;
+    }
+    .Design1 {
+        font-size: 16px;
+        margin-top: -24px;
+        margin-left: 11rem;
+        font-weight: bold;
+    }
+    
+    .grow {
+        font-size: 6px;
+        margin-top: 32px;
+        margin-left: 168px;
+        line-height: 15px;
+    }
+.right img {
+    width: 35rem;
+    height: 27rem;
+    margin-left: -19rem;
+    margin-top: 59px;
+}
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 72%;
+        height: 4vh;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 118px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15rem;
+    margin-top: 65px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 76px;
+    width: 60vw;
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+}
+@media screen and (max-width:800px) {
+
+    .Design {
+        font-size: 16px;
+        margin-top: 16rem;
+        font-weight: bold;
+}
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: 32px;
+    margin-left: 8px;
+    line-height: 15px;
+}
+    .right img {
+        width: 71vw;
+        height: 39vh;
+        margin-left: -13rem;
+        margin-top: 59px;
+    }
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 72%;
+        height: 4vh;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 30px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 15px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 76px;
+    width: 60vw;
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+}
+
+@media screen and (max-width:600px) {
+
+    .Design {
+        font-size: 16px;
+        margin-top: 25rem;
+        font-weight: bold;
+        margin-left: 1rem;
+    }
+
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 33px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: auto;
+    margin-left: 2rem;
+    line-height: 15px;
+}
+.right img {
+    width: 23rem;
+    height: 27rem;
+    margin-left: -18rem;
+    margin-top: 4rem;
+}
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+       
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .design {
+        margin-top: auto;
+        margin-left: auto;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    input {
+        width: 11rem;
+        height: 3rem;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: auto;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: auto;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: auto;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 6rem;
+    width: 10rem;
+    
+    padding: 1rem;
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 4rem;
+    margin-top: auto;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 4rem;
+    margin-top: auto;
+}
+.bottom_text1 {
+    margin-left: 40px;
+    color: gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 4rem;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: auto;
+}
+.bottom_text3{
+    margin-left: auto;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4 {
+    margin-left: 41px;
+    color: gray;
+    font-size: 13px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 4px;
+    margin-left: 1px;
+    margin-top: 30px;
+    text-decoration: underline dashed;
+}
+}
+@media screen and (max-width:400px) {
+
+    .Design {
+        font-size: 13px;
+        margin-top: 18rem;
+        font-weight: bold;
+        margin-left: 27px;
+    }
+    .Design1 {
+        font-size: 12px;
+        margin-top: -24px;
+        margin-left: 48px;
+        font-weight: bold;
+    }
+    
+    .grow {
+        font-size: 5px;
+        margin-top: 32px;
+        margin-left: 41px;
+        line-height: 15px;
+    }
+.right img {
+    width: 21rem;
+    height: 20rem;
+    margin-left: -16rem;
+    margin-top: 44px;
+}
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 151px;
+        height: 36px;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 11px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 15px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -1rem;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 52px;
+    width: 15rem;
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 101px;
+    height: 36px;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 6px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+.star_flex {
+    margin-top: 30px;
+    margin-left: 38px;
+}
+}
+@media screen and (max-width:350px) {
+
+    .Design {
+        font-size: 16px;
+        margin-top: 14rem;
+        font-weight: bold;
+}
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: 32px;
+    margin-left: 8px;
+    line-height: 15px;
+}
+    .right img {
+        width: 71vw;
+        height: 39vh;
+        margin-left: -13rem;
+        margin-top: 59px;
+    }
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 72%;
+        height: 4vh;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 30px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 15px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 76px;
+    width: 60vw;
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+}
+@media screen and (max-width:280px) {
+
+    .Design {
+        font-size: 16px;
+        margin-top: 14rem;
+        font-weight: bold;
+}
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: 32px;
+    margin-left: 8px;
+    line-height: 15px;
+}
+    .right img {
+        width: 71vw;
+        height: 39vh;
+        margin-left: -17rem;
+        margin-top: 59px;
+    }
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 72%;
+        height: 4vh;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 30px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 15px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 76px;
+    width: 60vw;
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+}
+
+@media screen and (max-width:100px) {
+
+    .Design {
+        font-size: 16px;
+        margin-top: 14rem;
+        font-weight: bold;
+}
+.Design1 {
+    font-size: 16px;
+    margin-top: -24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+    
+.grow {
+    font-size: 6px;
+    margin-top: 32px;
+    margin-left: 8px;
+    line-height: 15px;
+}
+    .right img {
+        width: 71vw;
+        height: 39vh;
+        margin-left: -13rem;
+        margin-top: 59px;
+    }
+    .yellow_stars_flex {
+        
+        display: flex;
+        font-size: 6px;
+    }
+    .underline {
+        font-size: 4px;
+        margin-left: 8px;
+        margin-left: 4px;
+        margin-top: 31px;
+    }
+    .design {
+        margin-top: -2px;
+        margin-left: 0px;
+        font-size: 4px;
+    }
+    
+    .logo1 {
+        font-size: 4px;
+        margin-left: 5px;
+        margin-top: 31px;
+    }
+    input {
+        width: 72%;
+        height: 4vh;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 10px grey;
+        margin-left: 30px;
+    }
+  ::placeholder {
+    color:grey;
+    font-size: 5px;
+    padding-left: 10px;
+    padding-top: -100px;
+  }
+  .btn {
+    background-color: #20bf6b;
+    width: 54px;
+    height: 30px;
+    font-size: 9px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 15px;
+}
+.image_1 img {
+    width: 24px;
+    height: 27px;
+    border-radius: 253px;
+    border: 1px solid green;
+    margin-left: -6px;
+}
+
+.body_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-left: -13px;
+    /* margin-top: 80px; */
+}
+.users {
+    color: gray;
+    font-size: 7px;
+    margin-top: 10px;
+}
+.bottom_bar {
+    display: block;
+    margin-left: 76px;
+    width: 60vw;
+        display:block;
+
+}
+.one {
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px grey;
+    border-radius: 70px;
+    width: 40px;
+
+    height: 40px;
+    margin-left: 93px;
+    margin-top: 12px;
+}
+.bottom_dashed {
+    color: gray;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+.bottom_text1 {
+    margin-left: 69px;
+    color:gray;
+    font-size: 15px;
+}
+.bottom_text2 {
+    margin-left: 90px;
+    color: gray;
+    font-size: 16px;
+}
+.bottom_text {
+    color: gray;
+    font-size: 16px;
+    margin-left: 46px;
+}
+.bottom_text3{
+    margin-left: 41px;
+    color:gray;
+    font-size: 16px;
+}
+
+
+.bottom_text4{
+    margin-left: 54px;
+    color:gray;
+    font-size: 15px;
+}
+.logo img {
+    width: 23vw;
+    height: 5vh;
+    padding-bottom: 82px;
+    margin-left: -53px;
+}
+.form_flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 39px;
+   
+}
+span {
+    font-size: 7px;
+    margin-left: 2px;
+    margin-top: 31px;
+    text-decoration: underline dashed;
+}
+
 }
