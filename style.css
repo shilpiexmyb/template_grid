@@ -28,6 +28,7 @@
     margin-left: 20px;
 
 }
+
 .stars{
     margin-left: 20px;
 }
@@ -169,17 +170,16 @@ input {
     margin-top: 23px;
 }
 .logo img {
-    width: 11vw;
-    height: 10vh;
-    
+    width: 9rem;
+    height: 4rem;
     padding-bottom: 67px;
-    margin-left: -20px;
+    margin-left: -4px;
 }
 @media screen and (max-width:1200px) {
 
     .Design {
         font-size: 16px;
-        margin-top: 14re;
+        margin-top: 14rem;
         font-weight: bold;
 }
 .Design1 {
@@ -260,7 +260,7 @@ input {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
+   
 }
 .users {
     color: gray;
@@ -268,10 +268,10 @@ input {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+   
     margin-left: 76px;
     width: 60vw;
-        display:block;
+      display:none;
 
 }
 .one {
@@ -421,7 +421,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
+   
 }
 .users {
     color: gray;
@@ -429,10 +429,10 @@ span {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+   
     margin-left: 76px;
     width: 60vw;
-        display:block;
+        display:none;
 
 }
 .one {
@@ -581,7 +581,6 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
 }
 .users {
     color: gray;
@@ -589,10 +588,10 @@ span {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+    display: none;
     margin-left: 76px;
     width: 60vw;
-        display:block;
+        
 
 }
 .one {
@@ -744,7 +743,6 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
 }
 .users {
     color: gray;
@@ -752,7 +750,7 @@ span {
     margin-top: auto;
 }
 .bottom_bar {
-    display: block;
+    display:none;
     margin-left: 6rem;
     width: 10rem;
     
@@ -822,30 +820,36 @@ span {
 @media screen and (max-width:400px) {
 
     .Design {
-        font-size: 13px;
+        font-size: 34px;
         margin-top: 18rem;
         font-weight: bold;
-        margin-left: 27px;
+        margin-left: -63px;
     }
     .Design1 {
-        font-size: 12px;
-        margin-top: -24px;
-        margin-left: 48px;
+        font-size: 34px;
+        margin-top: -40px;
+        margin-left: -13px;
         font-weight: bold;
     }
-    
-    .grow {
-        font-size: 5px;
-        margin-top: 32px;
-        margin-left: 41px;
-        line-height: 15px;
+    .business{
+        width:30px;
     }
-.right img {
-    width: 21rem;
-    height: 20rem;
-    margin-left: -16rem;
-    margin-top: 44px;
-}
+    .number {
+        font-size: 17px;
+    }
+    .grow {
+        font-size: 16px;
+        margin-top: 56px;
+        margin-left: -45px;
+        line-height: 24px;
+        color:gray;
+    }
+    .right img {
+        width: 19rem;
+        height: 20rem;
+        margin-left: -56rem;
+        margin-top: 61px;
+    }
     .yellow_stars_flex {
         
         display: flex;
@@ -869,28 +873,28 @@ span {
         margin-top: 31px;
     }
     input {
-        width: 151px;
-        height: 36px;
+        width: 14rem;
+        height: 49px;
         border-radius: 10px;
         border: 1px solid gainsboro;
         box-shadow: 0 0 10px grey;
-        margin-left: 11px;
+        margin-left: -18px;
     }
   ::placeholder {
     color:grey;
-    font-size: 5px;
+    font-size: 15px;
     padding-left: 10px;
     padding-top: -100px;
   }
   .btn {
     background-color: #20bf6b;
-    width: 54px;
-    height: 30px;
-    font-size: 9px;
+    width: 145px;
+    height: 54px;
+    font-size: 16px;
     border: none;
-    border-radius: 10px;
-    margin-left: 4rem;
-    margin-top: 15px;
+    border-radius: 26px;
+    margin-left: 1rem;
+    margin-top: 23px;
 }
 .image_1 img {
     width: 24px;
@@ -905,7 +909,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
+   
 }
 .users {
     color: gray;
@@ -913,7 +917,7 @@ span {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+    display: none;
     margin-left: 52px;
     width: 15rem;
 }
@@ -960,9 +964,9 @@ span {
     font-size: 15px;
 }
 .logo img {
-    width: 101px;
-    height: 36px;
-    padding-bottom: 82px;
+    width: 121px;
+    height: 49px;
+    padding-bottom: 78px;
     margin-left: -53px;
 }
 .form_flex{
@@ -972,15 +976,26 @@ span {
    
 }
 span {
-    font-size: 6px;
-    margin-left: 2px;
-    margin-top: 31px;
+    font-size: 14px;
+    margin-left: 1px;
+    margin-top: 42px;
     text-decoration: underline dashed;
 }
 .star_flex {
     margin-top: 30px;
     margin-left: 38px;
 }
+.india{
+    width:50rem;
+    
+}
+.business{
+    width:50rem;
+    
+}
+ 
+    
+
 }
 @media screen and (max-width:350px) {
 
@@ -1075,10 +1090,10 @@ span {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+    
     margin-left: 76px;
     width: 60vw;
-        display:block;
+        display:none;
 
 }
 .one {
@@ -1238,7 +1253,7 @@ span {
     display: block;
     margin-left: 76px;
     width: 60vw;
-        display:block;
+        display:none;
 
 }
 .one {
@@ -1388,7 +1403,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
     margin-left: -13px;
-    /* margin-top: 80px; */
+   
 }
 .users {
     color: gray;
@@ -1396,10 +1411,10 @@ span {
     margin-top: 10px;
 }
 .bottom_bar {
-    display: block;
+   
     margin-left: 76px;
     width: 60vw;
-        display:block;
+        display:none;
 
 }
 .one {
